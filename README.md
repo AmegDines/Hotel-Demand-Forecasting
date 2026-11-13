@@ -44,7 +44,4 @@ curl -X POST "http://127.0.0" \
   }'
 ```
 
-## 4. Run Tests
-```bash
-pytest
-```
+
