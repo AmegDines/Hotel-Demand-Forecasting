@@ -1,0 +1,63 @@
+{
+  "split_sizes": {
+    "train": 2868,
+    "val": 724,
+    "test": 736
+  },
+  "validation_metrics": {
+    "Naive_Lag7": {
+      "MAE": 2.646,
+      "RMSE": 4.03,
+      "WAPE": 8.22
+    },
+    "Ridge": {
+      "MAE": 1.602,
+      "RMSE": 2.299,
+      "WAPE": 4.97
+    },
+    "LightGBM": {
+      "MAE": 1.609,
+      "RMSE": 2.42,
+      "WAPE": 4.99
+    }
+  },
+  "held_out_test_metrics": {
+    "Naive_Lag7": {
+      "MAE": 2.99,
+      "RMSE": 4.842,
+      "WAPE": 10.94
+    },
+    "Ridge": {
+      "MAE": 1.459,
+      "RMSE": 2.069,
+      "WAPE": 5.34
+    },
+    "LightGBM": {
+      "MAE": 1.445,
+      "RMSE": 2.172,
+      "WAPE": 5.29
+    }
+  },
+  "test_metrics_by_category": {
+    "Deluxe": {
+      "MAE": 1.527,
+      "RMSE": 1.842,
+      "WAPE": 4.95
+    },
+    "Executive": {
+      "MAE": 0.543,
+      "RMSE": 0.663,
+      "WAPE": 5.61
+    },
+    "Standard": {
+      "MAE": 2.974,
+      "RMSE": 3.769,
+      "WAPE": 5.3
+    },
+    "Suite": {
+      "MAE": 0.735,
+      "RMSE": 0.913,
+      "WAPE": 5.82
+    }
+  }
+}
